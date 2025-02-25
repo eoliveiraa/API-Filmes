@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "novoGenero",
-        "Type": "api_filmes_senai.Controllers.GeneroController",
+        "Type": "api_filmes_senai.Domains.Genero",
         "IsRequired": true
       }
     ],

@@ -27,6 +27,6 @@ namespace api_filmes_senai.Interfaces
         void Deletar (Guid id);
 
         Genero BuscarPorId(Guid id);
-        void Cadastrar(GeneroController novoGenero);
+    
     }
 }

@@ -1,4 +1,5 @@
-﻿using api_filmes_senai.Interfaces;
+﻿using api_filmes_senai.Domains;
+using api_filmes_senai.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -34,7 +35,7 @@ namespace api_filmes_senai.Controllers
 
 
         [HttpPost]
-        public IActionResult Post (GeneroController novoGenero)
+        public IActionResult Post (Genero novoGenero)
        {
             try
             {
